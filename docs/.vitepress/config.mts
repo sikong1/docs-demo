@@ -12,6 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '介绍', link: '/guide/introduce' },
+      { text: '测试vue组件', link: '/guide/vue-demo' },
+      { text: '测试vue代码', link: '/guide/vue-demo-code' },
       {
         text: 'Markdown 扩展',
         link: (process.env.NODE_ENV === "development" ? '/other/markdown' : 'https://vitepress.dev/zh/guide/markdown')
